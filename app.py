@@ -21,7 +21,7 @@ logo_label.image= logo
 logo_label.grid(column=1,row=0,  pady=55)
 
 
-instructions = tk.Label(root, text="Select a PDF file from your computer to extract all its text", font='Raleway',pady=25)
+instructions = tk.Label(root, text="Check our PDF programs from the folder named Programs to view their content in the browser.", font='Raleway',pady=25)
 instructions.grid(columnspan=3, column=0, row=1)
 
 def openFile():
